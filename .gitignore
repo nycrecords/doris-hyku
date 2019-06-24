@@ -49,3 +49,4 @@ public/uploads
 .env
 .env.*
 fits.log
+*.pem
