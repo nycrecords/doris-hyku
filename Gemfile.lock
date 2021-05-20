@@ -542,10 +542,12 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mimemagic (0.3.2)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.9.2)
     mini_mime (1.0.0)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.5.1)
     minitest (5.11.3)
     mods (2.4.1)
       edtf
@@ -568,8 +570,9 @@ GEM
     noid-rails (3.0.0)
       actionpack (>= 5.0.0, < 6)
       noid (~> 0.9)
-    nokogiri (1.10.1)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.5)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nom-xml (1.1.0)
       activesupport (>= 3.2.18)
       i18n
@@ -607,6 +610,7 @@ GEM
       nokogiri (~> 1.6)
       rails (~> 5.0)
       rdf
+    racc (1.5.2)
     rack (2.0.6)
     rack-protection (2.0.0)
       rack
